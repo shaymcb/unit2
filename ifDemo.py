@@ -2,7 +2,7 @@
 #29Jan2018
 #ifDemo.py - how to use if, elif, else
 
-num = float(input("Gimme Number: "))
+num = float(input("gimme number: "))
 
 if num > 0: 
     print(num, 'is positive')
