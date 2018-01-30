@@ -25,5 +25,9 @@ else:
         else:
             print("You shake Claire and yell in her face. 'Help me!' she screams, 'I don't know what's going on!")
             print("Everyone thinks Claire is having a seizure. They call 911.")
-            print("When the paremedics arrive, you try to 
+            print("When the paremedics arrive, you try to get their attention, but they don't notice you.")
+            choice2 = 'b'
+    if choice2 == 'b':
+        print("Your head feels like it's splitting open. You pass out.")
+        print("
 
