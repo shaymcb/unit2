@@ -36,6 +36,10 @@ if choice1 == 'no':
         print("THE END")
     if choice2 == 'd':
         print("You decide to try to get out the window. It's right next to you, but you hardly make it-- your legs feel too weak for you to walk.")
-        print("As soon as you get the window open and breathe the fresh air, the headache goes away.")
+        print("As soon as you get the window open and breathe the fresh air, the noise goes away.")
+        print("A wispy tendril reaches out from the spike and grabs you. It pulls you in.")
+        print("You find yourself in a round metal windowless room full of a clear jelly. You sink into the jelly-- you cannot breathe and struggle to get out.")
+        print("Suddenly all the jelly recedes. It forms into a blob beside you. You watch in horror as it takes shape and gains color.")
+        print("
         
 
