@@ -8,6 +8,7 @@ print('You look out and see the whole forest glow bright green for a second befo
 choice1 = input('Did you imagine it? ')
 if choice1 == 'yes':
     print('You decide it was just your mind playing tricks on you. You go back to learning le subjonctif and live a boring life.')
+    print("THE END")
 else:
     print('You look closer and see a huge metal spike emerging out of the woods where you thought you saw the light.')
     print('The top of the spike lights up an ominous red. This is so cool!')
@@ -28,6 +29,6 @@ else:
             print("When the paremedics arrive, you try to get their attention, but they don't notice you.")
             choice2 = 'b'
     if choice2 == 'b':
-        print("Your head feels like it's splitting open. You pass out.")
-        print("
+        print("Your head feels like it's splitting open. You pass out and never wake back up.")
+        print("THE END")
 
