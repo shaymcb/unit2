@@ -23,5 +23,7 @@ else:
         if choice3 == 'b':
             choice2 = 'd'
         else:
-            print
+            print("You shake Claire and yell in her face. 'Help me!' she screams, 'I don't know what's going on!")
+            print("Everyone thinks Claire is having a seizure. They call 911.")
+            print("When the paremedics arrive, you try to 
 
