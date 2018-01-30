@@ -40,6 +40,7 @@ if choice1 == 'no':
         print("A wispy tendril reaches out from the spike and grabs you. It pulls you in.")
         print("You find yourself in a round metal windowless room full of a clear jelly. You sink into the jelly-- you cannot breathe and struggle to get out.")
         print("Suddenly all the jelly recedes. It forms into a blob beside you. You watch in horror as it takes shape and gains color, becoming a perfect copy of you.")
-        print("'What's going on?' you yell. 'What's going on?' not-you yells back in your voice. Then it runs unsteadily out through a hatch you hadn't noticed, into the school.")
+        print("'What's going on?' you yell. 'What's going on?' not-you yells back in your voice. Then it runs unsteadily out through a hatch you hadn't noticed and into the school.")
+        print("'What the fuck', you say. What do you do now?"
         
 
