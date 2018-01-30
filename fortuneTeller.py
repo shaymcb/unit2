@@ -3,9 +3,10 @@
 #fortuneTeller.py - tells yo fortune
 
 color = input('red pill or blue pill? ')
-num = int(input('pick a number between 1 and 4: ')
+num = int(input('pick a number between 1 and 4: '))
 
-if color == 'red':
+print(' ')
+if color == 'blue':
     if num == 1:
         print('you will die alone, having achieved nothing and lost everything')
     elif num == 2:
@@ -14,7 +15,7 @@ if color == 'red':
         print('tomorrow you will catch the flu and dry-drown')
     else:
         print("everyone you've ever loved will leave you in the end")
-elif color == 'blue':
+elif color == 'red':
     if num == 1:
         print('you were an accident')
     elif num == 2:
