@@ -8,11 +8,9 @@ if choice1 == 'yes':
     print('You decide it was just your mind playing tricks on you. You go back to learning le subjonctif and live a boring life.')
     print("THE END")
 if choice1 == 'no':
-    print('You look closer and see a huge metal spike emerging out of the woods where you thought you saw the light. The top of the spike lights up an ominous red. This is so cool!')
-    print('Suddenly your ears fill with a high-pitched ringing noise. You look around-- everyone else is continuing to discuss the reign of Napoleon III as if nothing is wrong.') 
-    print("The sound grows and grows until it is excruciatingly loud. You fall to the ground, clutching your ears and screaming.")
-    print("How has nobody noticed you're having a fit? It's not like you're being quiet.")
-    choice2 = input("Do you: (a) Try harder to get someone's attention, (b) Wait it out (c) Walk to the nurse's (d) Jump out the window towards the mysterious spike ")
+    print('You look closer and see a huge metal spike emerging out of the woods where you thought you saw the light. The top of the spike lights up an ominous red. Suddenly your ears fill with a high-pitched ringing noise.') 
+    print("The sound becomes excruciatingly loud. You fall to the ground, clutching your ears and screaming. How has nobody noticed this?")
+    choice2 = input("Do you: (a) Try to get someone's attention, (b) Wait it out (c) Walk to the nurse's (d) Jump out the window towards the mysterious spike ")
     if choice2 == 'a':
         print("Still lying on the ground, you whack the leg of the person sitting next to you.")
         print("'Claire!' you yell, 'get help!'")
@@ -32,12 +30,10 @@ if choice1 == 'no':
         print("Your head feels like it's splitting open. You pass out and never wake back up.")
         print("THE END")
     if choice2 == 'd':
-        print("You decide to try to get out the window. It's right next to you, but you hardly make it-- your legs feel too weak for you to walk.")
-        print("As soon as you get the window open and breathe the fresh air, the noise goes away.")
-        print("A wispy tendril reaches out from the spike and grabs you. It pulls you in.")
+        print("As soon as you get the window open, the noise stops. A wispy tendril reaches out from the spike pulls you in.")
         print("You find yourself in a round metal windowless room full of a clear jelly. You sink into the jelly-- you cannot breathe and struggle to get out.")
-        print("Suddenly all the jelly recedes. It forms into a blob beside you. You watch in horror as it takes shape and gains color, until it is a perfect copy of you.")
-        print("'What's going on?' you scream. 'What's going on?' not-you screams back in your voice. Then it runs unsteadily out through a hatch you hadn't noticed and into the school.")
+        print("Suddenly all the jelly recedes. You watch in horror as it takes shape and gains color, forming a perfect copy of you.")
+        print("'What's going on?' you scream. 'What's going on?' not-you screams back in your voice. Then it runs unsteadily out a hatch and into the school.")
         print("The hatch closes behind it, leaving you trapped. 'What the fuck', you say. What do you do now?")
-        choice3 = input("(a) Try to break open the hatch and escape, (b) Call for help, or (c) Wait for not-you to return")
+        choice3 = input("(a) Try to break open the hatch and escape, (b) Call for help, or (c) Wait for not-you to return ")
 
