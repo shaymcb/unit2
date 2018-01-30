@@ -19,5 +19,9 @@ else:
         print("Still lying on the ground, you whack the leg of the person sitting next to you.")
         print("'Claire!' you yell, 'get help!'")
         print("She rubs her leg and looks confused. She doesn't see or hear you. No one does. You're gonna need to do something more drastic.")
-        choice3 = input("Do you (a) 
+        choice3 = input("Do you (a) Shake Claire until she realizes something weird is going on, or (b) Give up and try to get out of there")
+        if choice3 == 'b':
+            choice2 = 'd'
+        else:
+            print
 
