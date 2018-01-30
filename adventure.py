@@ -15,7 +15,7 @@ if choice1 == 'no':
     print('Suddenly your ears fill with a high-pitched ringing noise. You look around-- everyone else is continuing to discuss the reign of Napoleon III as if nothing is wrong.') 
     print("The sound grows and grows until it is excruciatingly loud. You can't form thoughts. You fall to the ground, clutching your ears and screaming.")
     print("How has nobody noticed you're having a fit? It's not like you're being quiet.")
-    choice2 = input("Do you: (a) Try harder to get someone's attention, (b) Wait it out (c) Walk to the nurse's (d) Jump out the window ")
+    choice2 = input("Do you: (a) Try harder to get someone's attention, (b) Wait it out (c) Walk to the nurse's (d) Jump out the window towards the mysterious spike ")
     if choice2 == 'a':
         print("Still lying on the ground, you whack the leg of the person sitting next to you.")
         print("'Claire!' you yell, 'get help!'")
@@ -34,4 +34,8 @@ if choice1 == 'no':
     if choice2 == 'b':
         print("Your head feels like it's splitting open. You pass out and never wake back up.")
         print("THE END")
+    if choice2 == 'd':
+        print("You decide to try to get out the window. It's right next to you, but you hardly make it-- your legs feel too weak for you to walk.")
+        print("As soon as you get the window open and breathe the fresh air, the headache goes away.")
+        
 
