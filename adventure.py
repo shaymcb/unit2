@@ -13,14 +13,14 @@ if choice1 == 'no':
     choice2 = input("Do you: (a) Try to get someone's attention, (b) Wait it out (c) Walk to the nurse's (d) Jump out the window towards the mysterious spike ")
     if choice2 == 'a':
         print("Still lying on the ground, you whack the leg of the person sitting next to you.")
-        print("'Claire!' you yell, 'get help!'")
+        print("'Della!' you yell, 'get help!'")
         print("She rubs her leg and looks confused. She doesn't see or hear you. No one does. You're gonna need to do something more drastic.")
-        choice3 = input("Do you (a) Shake Claire until she realizes something weird is going on, or (b) Give up and try to get out of there? ")
+        choice3 = input("Do you (a) Shake Della until she realizes something weird is going on, or (b) Give up and try to get out of there? ")
         if choice3 == 'b':
             choice2 = 'd'
         else:
-            print("You shake Claire and yell in her face. 'Help me!' she screams, 'I don't know what's going on!")
-            print("Everyone thinks Claire is having a seizure. They call 911.")
+            print("You shake Della and yell in her face. 'Help me!' she screams, 'I don't know what's going on!")
+            print("Everyone thinks Della is having a seizure. They call 911.")
             print("When the paremedics arrive, you try to get their attention, but they don't notice you.")
             choice2 = 'b'
     elif choice2 == 'c':
