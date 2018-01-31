@@ -3,7 +3,7 @@
 #adventure.py - choose your own adventure
 
 print('You are bored in french class when you think you hear something crash into the trees behind the turf out the window behind you.')
-choice1 = input('Did you imagine it? (yes/no)')
+choice1 = input('Did you imagine it? (yes/no) ')
 if choice1 == 'yes':
     print("You decide it was just your mind playing tricks on you. You go back to learning le subjonctif and live a boring life. Some aliens take over the world a few weeks later, but it doesn't really affect you.")
     print("THE END")
@@ -16,7 +16,9 @@ if choice1 == 'no':
         print("She rubs her leg and looks confused. She doesn't see or hear you. No one does. You're gonna need to do something more drastic.")
         choice3 = input("Do you (a) Shake Claire until she realizes something weird is going on, or (b) Give up and try to get out of there? ")
         if choice3 == 'b':
-            choice2 = 'c'
+            print("Your legs feel like jelly. You can't walk. You try to creep toward the door but you can't make it.")
+            print("Your head feels like it's splitting open. You pass out and never wake back up.")
+            print("THE END")
         else:
             print("You shake Claire and yell in her face. 'Help me!' she screams, 'I don't know what's going on!")
             print("Everyone thinks Claire is having a seizure. They call 911.")
@@ -24,11 +26,12 @@ if choice1 == 'no':
             choice2 = 'b'
     elif choice2 == 'c':
         print("Your legs feel like jelly. You can't walk. You try to creep toward the door but you can't make it.")
-        choice2 == 'b'
-    if choice2 == 'b':
         print("Your head feels like it's splitting open. You pass out and never wake back up.")
         print("THE END")
-    if choice2 == 'd':
+    elif choice2 == 'b':
+        print("Your head feels like it's splitting open. You pass out and never wake back up.")
+        print("THE END")
+    elif choice2 == 'd':
         print("As soon as you get the window open, the noise stops. A wispy tendril reaches out from the spike and pulls you in.")
         print("You find yourself in a round metal windowless room surrounded by a clear jelly. You cannot breathe and struggle to get out. Suddenly all the jelly recedes. You watch in horror as it takes shape and gains color, forming a perfect copy of you.")
         print("'What's going on?' you scream. 'What's going on?' not-you screams back in your voice. Then it runs unsteadily out a hatch and into the school.")
@@ -47,7 +50,7 @@ if choice1 == 'no':
                 print("Your friend picks up on one ring. It's so nice to have people you can count on. 'Tish!' you say, 'I need help.'")
                 print("'Aren't you be in French?' she asks 'I'm not helping you cheat.'")
                 print("'No, it's not that' you say. 'I think I've been body-snatched. Go see if I'm in class.' 'If you're fucking with me...' Tish says, but checks anyway.")
-                print("When she sees you're ")
+                print("'What-- What the fuck,' says Tish, 'You're there, but you're talking to me, but you're not talking to me but---'")
         elif choice4 == 'a':
-            print("You bang on the hatch but it doesn't open.")
-            
+            print("You bang on the hatch but it doesn't open. It does, however sense your presence and squish you into the floor.")
+            print("THE END")
