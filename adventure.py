@@ -32,7 +32,7 @@ if choice1 == 'no':
         print("As soon as you get the window open, the noise stops. A wispy tendril reaches out from the spike and pulls you in.")
         print("You find yourself in a round metal windowless room surrounded by a clear jelly. You cannot breathe and struggle to get out. Suddenly all the jelly recedes. You watch in horror as it takes shape and gains color, forming a perfect copy of you.")
         print("'What's going on?' you scream. 'What's going on?' not-you screams back in your voice. Then it runs unsteadily out a hatch and into the school.")
-        print("The hatch closes behind it, leaving you trapped. 'What the fuck', you say. What do you do now?")
+        print("The hatch closes behind it, leaving you trapped. 'What the fuck,' you say. What do you do now?")
         choice4 = input("(a) Try to break open the hatch and escape, (b) Call for help, or (c) Wait for not-you to return ")
         if choice4 == 'b':
             print("Somehow you have reception. Whatever the blob was, it didn't plan on cell phones.")
@@ -47,6 +47,6 @@ if choice1 == 'no':
                 print("Your friend picks up on one ring. It's so nice to have people you can count on. 'Tish!' you say, 'I need help.'")
                 print("'Aren't you be in French?' she asks 'I'm not helping you cheat.'")
                 print("'No, it's not that' you say. 'I think I've been body-snatched. Go see if I'm in class.' 'If you're fucking with me...' Tish says, but checks anyway.")
-                print("When she sees you're 
+                print("When she sees you're ")
                 
             
