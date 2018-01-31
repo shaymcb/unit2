@@ -49,5 +49,5 @@ if choice1 == 'no':
                 print("'No, it's not that' you say. 'I think I've been body-snatched. Go see if I'm in class.' 'If you're fucking with me...' Tish says, but checks anyway.")
                 print("When she sees you're ")
         elif choice4 == 'a':
-            print('You bang
+            print("You bang on the hatch but it doesn't open.")
             
