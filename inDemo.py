@@ -4,7 +4,7 @@
 
 word = input('Enter a word: ')
 
-if 'w' in word:
+if 'w' in word or 'W' in word:
     print(word,'is cool')
 else:
     print(word,'is not cool')
