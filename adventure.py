@@ -9,7 +9,7 @@ if choice1 == 'yes':
     print("THE END")
 if choice1 == 'no':
     print('You look closer and see a huge metal spike emerging out of the woods where you thought you saw the light. The top of the spike lights up an ominous red. Suddenly your ears fill with a high-pitched ringing noise.') 
-    print("The sound becomes excruciatingly loud. You fall to the ground, clutching your ears and screaming. How has nobody noticed you're freaking out?")
+    print("The sound becomes excruciatingly loud. You look around-- everyone else is continuing to discuss the reign of Napoleon III as if nothing is wrong. You fall to the ground, clutching your ears and screaming. How has nobody noticed you're freaking out?")
     choice2 = input("Do you: (a) Try to get someone's attention, (b) Wait it out (c) Walk to the nurse's (d) Jump out the window towards the mysterious spike ")
     if choice2 == 'a':
         print("Still lying on the ground, you whack the leg of the person sitting next to you.")
