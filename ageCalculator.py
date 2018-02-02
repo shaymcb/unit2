@@ -4,9 +4,13 @@
 
 from datetime import date
 
-year = int(input('Enter the year you were born: ')
-month = int(input('Enter the month you were born: ')
-day = int(input('Enter the day you were born: ')
+year = int(input('Enter the year you were born: '))
+month = int(input('Enter the month you were born (as a number): '))
+day = int(input('Enter the day you were born: '))
 
-if month > month.today.month or (month == month.today.month and day > date.today.date)
-    
+if month > date.today().month or (month == date.today().month and day > date.today().day):
+    print('You are',date.today().year - year - 1,'years old')
+else:
+    print('You are',date.today().year - year,'years old')
+if month == date.today().month and day == date.today().day:
+    print('Happy Birthday!')
