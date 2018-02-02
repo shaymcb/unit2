@@ -10,13 +10,13 @@ size = randint(100,500)
 
 if rand == 1:
     color = Color(0xFF0000, 1)
-if rand == 2:
+elif rand == 2:
     color = Color(0x00FF00, 1)
-if rand == 3:
+elif rand == 3:
     color = Color(0x0000FF, 1)
-if rand == 4:
+else:
     color = Color(0xFFFF00, 1)
-
+    
 line = LineStyle(3,Color(0x000000, 1))
 rectangle = RectangleAsset(size,size,line,color)
     
