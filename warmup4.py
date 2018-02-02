@@ -8,4 +8,4 @@ num = (input("Enter a number: "))
 if '7' in num or int(num)%7 == 0:
     print('buzz')
 else:
-    print('nah')
+    print(num)
