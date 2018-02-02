@@ -17,7 +17,7 @@ if rand == 3:
 if rand == 4:
     color = Color(0xFFFF00, 1)
 
-line = LineStyle(3,color)
+line = LineStyle(3,Color(0x000000, 1))
 rectangle = RectangleAsset(size,size,line,color)
     
 Sprite(rectangle)
