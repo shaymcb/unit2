@@ -5,20 +5,12 @@
 from ggame import *
 from random import randint
 
-rand = randint(1,4)
-size = randint(100,500)
+colorSquare = Color(hex(randint(0,256**3-1)), 1)
+colorLine = Color(hex(randint(0,256**3-1)), 1)
 
-if rand == 1:
-    color = Color(0xFF0000, 1)
-elif rand == 2:
-    color = Color(0x00FF00, 1)
-elif rand == 3:
-    color = Color(0x0000FF, 1)
-else:
-    color = Color(0xFFFF00, 1)
-    
-line = LineStyle(3,Color(0x000000, 1))
-rectangle = RectangleAsset(size,size,line,color)
+size = randint(100,500)
+line = LineStyle(3,colorLine)
+rectangle = RectangleAsset(size,size,line,colorSquare)
     
 Sprite(rectangle)
 myApp = App()
