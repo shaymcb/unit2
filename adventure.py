@@ -51,6 +51,8 @@ if choice1 == 'no':
                 print("'Aren't you be in French?' she asks 'I'm not helping you cheat.'")
                 print("'No, it's not that' you say. 'I think I've been body-snatched. Go see if I'm in class.' 'If you're fucking with me...' Tish says, but checks anyway.")
                 print("'What-- What the fuck,' says Tish, 'You're there, but you're talking to me, but you're not talking to me but---'")
+                print("She believes you now, comes to rescue you, and helps you save the world from an alien invasion, but I'm out of space so you don't get to read about it.")
+                print("THE END")
         elif choice4 == 'a':
             print("You bang on the hatch but it doesn't open. It does, however sense your presence and squish you into the floor.")
             print("THE END")
