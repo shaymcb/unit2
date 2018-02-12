@@ -47,7 +47,7 @@ if choice1 == 'no':
             if choice5 == 'b':
                 print("Your mom doesn't pick up the phone. 'Damn it!' you yell, and something inside the room electrocutes you for talking too loud.")
                 print("THE END")
-            if choice5 == 'a':
+            elif choice5 == 'a':
                 print("Your friend picks up on one ring. It's so nice to have people you can count on. 'Tish!' you say, 'I need help.'")
                 print("'Aren't you be in French?' she asks 'I'm not helping you cheat.'")
                 print("'No, it's not that' you say. 'I think I've been body-snatched. Go see if I'm in class.' 'If you're fucking with me...' Tish says, but checks anyway.")
